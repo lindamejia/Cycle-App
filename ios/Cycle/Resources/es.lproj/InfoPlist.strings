@@ -1,0 +1,4 @@
+"CFBundleDisplayName" = "Cycle";
+"NSHealthShareUsageDescription" = "Cycle lee el sueño, la variabilidad de la frecuencia cardiaca, el pulso en reposo, los pasos, la energía activa, los entrenamientos, la temperatura de la muñeca y los datos de la regla para encontrar patrones en tu energía. Los datos de salud se quedan en este iPhone; solo se envía un resumen semanal para analizarlo.";
+"NSHealthUpdateUsageDescription" = "Cycle nunca escribe en Salud de Apple.";
+"NSCalendarsFullAccessUsageDescription" = "Cycle lee los títulos y las horas de los eventos de tus calendarios para ver cómo se relaciona tu agenda con tu energía. No se cambia nada.";

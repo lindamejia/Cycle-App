@@ -1,0 +1,291 @@
+/* Common */
+"common.back" = "Back";
+"common.cancel" = "Cancel";
+"common.continue" = "Continue";
+"common.demo" = "Demo";
+"common.done" = "Done";
+"common.no" = "No";
+"common.retry" = "Try again";
+"common.yes" = "Yes";
+
+"error.generic" = "Something went wrong. Try again in a moment.";
+"error.notConfigured" = "This build isn't connected to the study server yet. You can try demo mode.";
+
+/* Tabs */
+"tab.today" = "Today";
+"tab.insights" = "Insights";
+"tab.experiment" = "Experiment";
+"tab.settings" = "Settings";
+
+/* Units */
+"unit.ms" = "%ld ms";
+"unit.bpm" = "%ld bpm";
+"unit.min" = "%ld min";
+
+/* Cycle phases */
+"phase.menstrual" = "Menstrual phase";
+"phase.follicular" = "Follicular phase";
+"phase.ovulatory" = "Ovulatory phase";
+"phase.luteal" = "Luteal phase";
+"phase.late_luteal" = "Late luteal phase";
+
+/* Focus */
+"focus.sleep" = "Sleep";
+"focus.energy" = "Energy";
+"focus.mood" = "Mood";
+"focus.focus" = "Focus";
+
+/* Risk */
+"risk.low" = "Light";
+"risk.med" = "Mixed";
+"risk.high" = "Heavy";
+
+/* Today */
+"today.label" = "Today";
+"today.forecast" = "Forecast";
+"today.periodStarted" = "My period started";
+"today.periodStarted.confirm" = "Mark today as day 1 of your period?";
+"today.periodStarted.yes" = "Yes, it started today";
+
+"forecast.headline.high" = "Likely a lower-energy day";
+"forecast.headline.med" = "Could be a mixed day";
+"forecast.headline.low" = "Looks like a steadier day";
+"forecast.headline.nodata" = "Not enough data yet";
+"forecast.reason.sleep" = "%@ sleep";
+"forecast.reason.hrv" = "HRV below your usual";
+"forecast.reason.rhr" = "resting heart rate up";
+"forecast.reason.lateLuteal" = "late luteal phase";
+"forecast.reason.period" = "day %ld of your period";
+"forecast.reason.events" = "%ld events";
+"forecast.reason.late" = "a late night planned";
+"forecast.reason.evening" = "evening plans";
+
+"stat.sleep" = "Sleep";
+"stat.hrv" = "HRV";
+"stat.rhr" = "Resting HR";
+"stat.cycle" = "Cycle";
+"stat.calendar" = "Calendar";
+"stat.usual" = "Usually %@";
+"stat.cycleDay" = "Day %ld";
+"stat.cycle.notTracked" = "Not tracked";
+"stat.events" = "%ld events";
+"stat.evening" = "%ld in the evening";
+
+/* Insights */
+"insights.label" = "Weekly";
+"insights.title" = "Insights";
+"insights.generating" = "Reading your last weeks.";
+"insights.error" = "Your insight couldn't be prepared. Your data is safe on this phone.";
+"insights.empty" = "Your first insight will appear here.";
+"insights.weekOf" = "Week of %@";
+"insights.confidence.low" = "Low confidence";
+"insights.confidence.medium" = "Medium confidence";
+"insights.confidence.high" = "High confidence";
+"insights.useful" = "Useful";
+"insights.notUseful" = "Not useful";
+"insights.weekAhead" = "Week ahead";
+"insights.heavyDay" = "%1$@ looks heavier: %2$@.";
+
+/* Metrics */
+"metric.sleep" = "sleep";
+"metric.hrv" = "HRV";
+"metric.energy" = "evening energy";
+"metric.sleep.hours" = "Sleep, hours";
+"metric.hrv.ms" = "HRV, ms";
+"metric.events" = "Events";
+
+/* Experiments */
+"exp.label" = "10 days";
+"exp.title" = "Experiment";
+"exp.locked.title" = "Experiments open in week 2.";
+"exp.locked.body" = "In %ld days you can try one small change for 10 days, with one yes or no tap each evening. These are the options.";
+"exp.suggested" = "Suggested from your data";
+"exp.pick" = "Pick one";
+"exp.orPick" = "Or pick another";
+"exp.start" = "Start the %ld-day experiment";
+"exp.start.confirm" = "Start for %ld days";
+"exp.stop" = "Stop experiment";
+"exp.stop.confirm" = "Stop this experiment? You'll see a result with the days so far.";
+"exp.dayOf" = "Day %ld of %ld";
+"exp.today" = "Today";
+"exp.noPressure" = "A no is useful data too.";
+"exp.result" = "Result";
+"exp.before" = "2 weeks before";
+"exp.during" = "Experiment days";
+"exp.days" = "%ld days";
+"exp.earlier" = "Earlier experiments";
+"exp.caveat" = "Other things changed too, so read this as a hint, not proof.";
+"exp.verdict.insufficient" = "Not enough data to compare yet. Each side needs at least %ld days with data.";
+"exp.verdict.unclear" = "Not enough difference to tell yet.";
+"exp.verdict.higher" = "Your %1$@ was %2$@ higher on experiment days than in the two weeks before.";
+"exp.verdict.lower" = "Your %1$@ was %2$@ lower on experiment days than in the two weeks before.";
+
+"exp.caffeine_cutoff_2pm.title" = "Caffeine cutoff at 2pm";
+"exp.caffeine_cutoff_2pm.detail" = "No coffee, black tea or energy drinks after 2pm. Compared with your sleep.";
+"exp.caffeine_cutoff_2pm.question" = "No caffeine after 2pm today?";
+"exp.no_alcohol_weeknights.title" = "No alcohol on weeknights";
+"exp.no_alcohol_weeknights.detail" = "Sunday to Thursday evenings without alcohol. Compared with your overnight HRV.";
+"exp.no_alcohol_weeknights.question" = "Did today go to plan? Friday and Saturday count as yes.";
+"exp.wind_down_30.title" = "30-minute wind-down";
+"exp.wind_down_30.detail" = "Screens away and lights low 30 minutes before bed. Compared with your sleep.";
+"exp.wind_down_30.question" = "Winding down 30 minutes before bed tonight?";
+"exp.morning_walk_10.title" = "10-minute morning walk";
+"exp.morning_walk_10.detail" = "Ten minutes outside before 10am. Compared with your evening energy.";
+"exp.morning_walk_10.question" = "Did you walk for 10 minutes this morning?";
+"exp.meeting_free_block.title" = "One protected block";
+"exp.meeting_free_block.detail" = "On days with 4 or more events, keep one hour free of meetings. Compared with your evening energy.";
+"exp.meeting_free_block.question" = "Did you keep an hour free today? A light day counts as yes.";
+
+/* Energy check-in */
+"energy.low" = "Low";
+"energy.okay" = "Okay";
+"energy.good" = "Good";
+
+/* Notifications */
+"notif.weekly.title" = "Your week";
+"notif.weekly.body" = "A new insight and the week ahead.";
+"notif.energy.title" = "Energy today";
+"notif.energy.body" = "Press and hold to answer: low, okay or good.";
+"notif.headsup.title" = "Tomorrow";
+"notif.headsup.body" = "Tomorrow looks heavy: %@. Maybe keep the evening free?";
+
+/* Onboarding */
+"onb.intro.label" = "A 3-week test";
+"onb.intro.title" = "Understand your days.";
+"onb.intro.line1" = "Reads your sleep, heart, cycle and calendar in the background.";
+"onb.intro.line2" = "Once a week, one insight into what shapes your energy.";
+"onb.intro.line3" = "Small, optional experiments. No daily logging.";
+"onb.intro.demo" = "Try demo mode with sample data";
+"onb.questionOf" = "%ld of %ld";
+
+"onb.consent.label" = "Before we start";
+"onb.consent.title" = "What happens with your data";
+"onb.consent.reads.title" = "What the app reads";
+"onb.consent.reads.body" = "From Apple Health: sleep, heart rate variability, resting heart rate, steps, active energy, workouts, wrist temperature and period data. From your calendars: event titles, times and whether they're all-day. Nothing is written back.";
+"onb.consent.stays.title" = "Where it stays";
+"onb.consent.stays.body" = "On this iPhone. Once a week, a summary (daily numbers, dates and event titles, which may include names you typed) is sent to Claude, an AI model made by Anthropic, to write your insight. The summary is not stored on our server.";
+"onb.consent.stored.title" = "What we keep";
+"onb.consent.stored.body" = "A pseudonymous participant code, how you use the app, your survey answers and the insight text. No name, email or raw health data.";
+"onb.consent.test.title" = "This is a test";
+"onb.consent.test.body" = "A 3-week trial of an early product. It isn't a medical device and doesn't give medical advice.";
+"onb.consent.control.title" = "You're in control";
+"onb.consent.control.body" = "You can export or delete all your data at any time in Settings. Deleting also removes your rows from our server.";
+"onb.consent.agree" = "I agree";
+
+"onb.invite.label" = "Invite";
+"onb.invite.title" = "Enter your invite code";
+"onb.invite.body" = "It's on the message you got with the TestFlight link.";
+"onb.invite.placeholder" = "ABCD-1234";
+"onb.invite.invalid" = "That code wasn't recognised. Check it and try again.";
+"onb.invite.failed" = "Couldn't connect. Check your connection and try again.";
+
+"onb.perm.label" = "Access";
+"onb.perm.title" = "Health and Calendar";
+"onb.perm.health" = "Apple Health is read only. Allow the categories you're comfortable with; the app works with whatever it gets.";
+"onb.perm.calendar" = "Calendar access covers every calendar on this phone, including Google or Outlook accounts added in Settings.";
+"onb.perm.note" = "Reading starts with the last 90 days, so your first insight can appear today.";
+"onb.perm.allow" = "Allow access";
+
+"intake.age.q" = "Your age range";
+"intake.cycle.q" = "Your cycle right now";
+"intake.cycle.natural" = "Natural cycle";
+"intake.cycle.hormonal" = "Hormonal birth control";
+"intake.cycle.no_period" = "No period";
+"intake.plans.q" = "In the last 12 months, have you changed a plan because of your cycle?";
+"intake.plans.never" = "Never";
+"intake.plans.1_2" = "Once or twice";
+"intake.plans.several" = "Several times";
+"intake.plans.often" = "Often";
+"intake.tried.q" = "Have you ever changed something to see if you felt better?";
+"intake.tried.noticed" = "Yes, and I noticed a difference";
+"intake.tried.couldnt_tell" = "Yes, but I couldn't tell";
+"intake.tried.no" = "No";
+
+"onb.period.title" = "Your last period";
+"onb.period.body" = "Apple Health has no period data, so a rough start date is enough. You can tap \"My period started\" on Today next time.";
+"onb.period.date" = "First day";
+"onb.period.length" = "Typical cycle";
+"onb.period.days" = "%ld days";
+"onb.period.unsure" = "I'm not sure";
+
+"onb.focus.q" = "What do you most want to understand?";
+
+"onb.notif.label" = "Notifications";
+"onb.notif.title" = "At most 4 a week.";
+"onb.notif.body" = "A Monday insight, an optional evening energy tap, a heads-up before a heavy day and experiment check-ins. No streaks, no reminders about missed days.";
+"onb.notif.allow" = "Allow notifications";
+"onb.notif.later" = "Not now";
+
+"onb.reading.label" = "Reading";
+"onb.reading.title" = "Reading the last 90 days.";
+
+/* Settings */
+"settings.label" = "App";
+"settings.title" = "Settings";
+"settings.notifications" = "Notifications";
+"settings.notifications.all" = "Notifications";
+"settings.notifications.note" = "At most 4 a week.";
+"settings.energy" = "Evening energy check";
+"settings.energy.note" = "A three-button notification on some evenings.";
+"settings.display" = "Display";
+"settings.dark" = "Dark";
+"settings.light" = "Light";
+"settings.demo" = "Demo";
+"settings.demo.toggle" = "Demo mode";
+"settings.demo.note" = "Sample data, kept apart from yours. Nothing is sent.";
+"settings.demo.preview21" = "Preview the day-21 screens";
+"settings.data" = "Your data";
+"settings.export" = "Export my data (JSON)";
+"settings.delete" = "Delete all my data";
+"settings.delete.confirm" = "Delete all your data?";
+"settings.delete.message" = "This removes everything on this phone and your rows on our server. It can't be undone.";
+"settings.delete.action" = "Delete everything";
+"settings.delete.failed" = "Couldn't reach the server";
+"settings.delete.failed.message" = "Your server data wasn't deleted. Try again when you're online, or delete the data on this phone only.";
+"settings.delete.localOnly" = "Delete on this phone only";
+"settings.privacy" = "Privacy policy";
+"settings.participant" = "Participant %@";
+"settings.trialDay" = "Day %ld of %ld";
+"settings.version" = "Version %@";
+
+/* Day 21 */
+"trial.label" = "Day 21";
+"trial.q1" = "Which insight was most useful?";
+"trial.q1.none" = "None of them";
+"trial.q2" = "How would you feel if you could no longer use this app?";
+"trial.q2.very" = "Very disappointed";
+"trial.q2.somewhat" = "Somewhat disappointed";
+"trial.q2.not" = "Not disappointed";
+"trial.q3" = "What would make it worth paying for?";
+"trial.q3.placeholder" = "Anything goes";
+
+"paywall.title" = "Keep going";
+"paywall.price" = "€8 / month";
+"paywall.line1" = "A new insight every week.";
+"paywall.line2" = "Heads-up before heavy days.";
+"paywall.line3" = "Experiments based on your own data.";
+"paywall.subscribe" = "Subscribe";
+"paywall.notNow" = "Not now";
+"paywall.thanks.title" = "Thank you.";
+"paywall.thanks.body" = "Billing isn't live yet and you won't be charged. We'll let you know when it is.";
+
+/* Demo insights */
+"demo.sleep.title" = "Low-energy days followed short nights";
+"demo.sleep.body" = "Of your %1$ld lowest-energy days, %2$ld followed a night under 6.5h and %3$ld fell in the second half of your cycle. Want to test a 30-min earlier wind-down this week?";
+"demo.sleep.exp" = "Most of your low days came after short nights.";
+"demo.phase.title" = "HRV dips before your period";
+"demo.phase.body" = "Your HRV averaged %1$ld ms in the follicular phase and %2$ld ms in the late luteal phase. Heavier days in that window may be partly your body, not just your plans.";
+"demo.phase.exp" = "Late-day caffeine can weigh on sleep when HRV is already lower.";
+"demo.load.title" = "Busy days tend to cost more";
+"demo.load.body" = "On days with 4 or more events your evening energy averaged %1$.1f of 3 (%2$ld days), against %3$.1f on lighter days (%4$ld days).";
+"demo.load.exp" = "Your lowest evenings came after the fullest calendars.";
+"demo.ev.lowDays" = "Low-energy evenings";
+"demo.ev.afterShort" = "After a night under 6.5h";
+"demo.ev.shortNights" = "Nights under 6.5h";
+"demo.ev.of" = "%1$ld of %2$ld";
+"demo.ev.ofCheckins" = "%1$ld of %2$ld check-ins";
+"demo.ev.follicularHRV" = "HRV, follicular";
+"demo.ev.lateLutealHRV" = "HRV, late luteal";
+"demo.ev.days" = "Days compared";
+"demo.ev.busyEnergy" = "Energy, 4+ events";
+"demo.ev.lightEnergy" = "Energy, lighter days";

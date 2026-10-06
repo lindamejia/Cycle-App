@@ -1,0 +1,4 @@
+"CFBundleDisplayName" = "Cycle";
+"NSHealthShareUsageDescription" = "Cycle reads sleep, heart rate variability, resting heart rate, steps, active energy, workouts, wrist temperature and period data to find patterns in your energy. Health data stays on this iPhone; only a weekly summary is sent for analysis.";
+"NSHealthUpdateUsageDescription" = "Cycle never writes to Apple Health.";
+"NSCalendarsFullAccessUsageDescription" = "Cycle reads event titles and times from your calendars to see how your schedule relates to your energy. Nothing is changed.";
