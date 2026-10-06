@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Cycle</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+		<string>es</string>
+	</array>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Cycle reads sleep, heart rate variability, resting heart rate, steps, active energy, workouts, wrist temperature and period data to find patterns in your energy. Health data stays on this iPhone; only a weekly summary is sent for analysis.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Cycle never writes to Apple Health.</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>Cycle reads event titles and times from your calendars to see how your schedule relates to your energy. Nothing is changed.</string>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>LaunchBackground</string>
+	</dict>
+</dict>
+</plist>

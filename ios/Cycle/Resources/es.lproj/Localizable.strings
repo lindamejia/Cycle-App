@@ -1,0 +1,291 @@
+/* Common */
+"common.back" = "Atrás";
+"common.cancel" = "Cancelar";
+"common.continue" = "Continuar";
+"common.demo" = "Demo";
+"common.done" = "Listo";
+"common.no" = "No";
+"common.retry" = "Reintentar";
+"common.yes" = "Sí";
+
+"error.generic" = "Algo ha fallado. Vuelve a intentarlo en un momento.";
+"error.notConfigured" = "Esta versión aún no está conectada al servidor del estudio. Puedes probar el modo demo.";
+
+/* Tabs */
+"tab.today" = "Hoy";
+"tab.insights" = "Lecturas";
+"tab.experiment" = "Experimento";
+"tab.settings" = "Ajustes";
+
+/* Units */
+"unit.ms" = "%ld ms";
+"unit.bpm" = "%ld lpm";
+"unit.min" = "%ld min";
+
+/* Cycle phases */
+"phase.menstrual" = "Fase menstrual";
+"phase.follicular" = "Fase folicular";
+"phase.ovulatory" = "Fase ovulatoria";
+"phase.luteal" = "Fase lútea";
+"phase.late_luteal" = "Fase lútea tardía";
+
+/* Focus */
+"focus.sleep" = "Sueño";
+"focus.energy" = "Energía";
+"focus.mood" = "Estado de ánimo";
+"focus.focus" = "Concentración";
+
+/* Risk */
+"risk.low" = "Ligero";
+"risk.med" = "Mixto";
+"risk.high" = "Intenso";
+
+/* Today */
+"today.label" = "Hoy";
+"today.forecast" = "Previsión";
+"today.periodStarted" = "Me ha bajado la regla";
+"today.periodStarted.confirm" = "¿Marcar hoy como el día 1 de tu regla?";
+"today.periodStarted.yes" = "Sí, ha empezado hoy";
+
+"forecast.headline.high" = "Probablemente un día con menos energía";
+"forecast.headline.med" = "Puede ser un día irregular";
+"forecast.headline.low" = "Parece un día más estable";
+"forecast.headline.nodata" = "Aún no hay datos suficientes";
+"forecast.reason.sleep" = "%@ de sueño";
+"forecast.reason.hrv" = "VFC por debajo de lo habitual";
+"forecast.reason.rhr" = "pulso en reposo más alto";
+"forecast.reason.lateLuteal" = "fase lútea tardía";
+"forecast.reason.period" = "día %ld de la regla";
+"forecast.reason.events" = "%ld eventos";
+"forecast.reason.late" = "una noche larga prevista";
+"forecast.reason.evening" = "planes por la tarde";
+
+"stat.sleep" = "Sueño";
+"stat.hrv" = "VFC";
+"stat.rhr" = "Pulso en reposo";
+"stat.cycle" = "Ciclo";
+"stat.calendar" = "Calendario";
+"stat.usual" = "Normalmente %@";
+"stat.cycleDay" = "Día %ld";
+"stat.cycle.notTracked" = "Sin seguimiento";
+"stat.events" = "%ld eventos";
+"stat.evening" = "%ld por la tarde";
+
+/* Insights */
+"insights.label" = "Semanal";
+"insights.title" = "Lecturas";
+"insights.generating" = "Leyendo tus últimas semanas.";
+"insights.error" = "No se ha podido preparar tu lectura. Tus datos siguen seguros en este teléfono.";
+"insights.empty" = "Tu primera lectura aparecerá aquí.";
+"insights.weekOf" = "Semana del %@";
+"insights.confidence.low" = "Confianza baja";
+"insights.confidence.medium" = "Confianza media";
+"insights.confidence.high" = "Confianza alta";
+"insights.useful" = "Útil";
+"insights.notUseful" = "No útil";
+"insights.weekAhead" = "La semana";
+"insights.heavyDay" = "%1$@ parece más intenso: %2$@.";
+
+/* Metrics */
+"metric.sleep" = "sueño";
+"metric.hrv" = "VFC";
+"metric.energy" = "energía por la tarde";
+"metric.sleep.hours" = "Sueño, horas";
+"metric.hrv.ms" = "VFC, ms";
+"metric.events" = "Eventos";
+
+/* Experiments */
+"exp.label" = "10 días";
+"exp.title" = "Experimento";
+"exp.locked.title" = "Los experimentos empiezan en la semana 2.";
+"exp.locked.body" = "En %ld días podrás probar un pequeño cambio durante 10 días, con un sí o un no cada tarde. Estas son las opciones.";
+"exp.suggested" = "Sugerido a partir de tus datos";
+"exp.pick" = "Elige uno";
+"exp.orPick" = "O elige otro";
+"exp.start" = "Empezar el experimento de %ld días";
+"exp.start.confirm" = "Empezar durante %ld días";
+"exp.stop" = "Detener experimento";
+"exp.stop.confirm" = "¿Detener este experimento? Verás un resultado con los días hasta ahora.";
+"exp.dayOf" = "Día %ld de %ld";
+"exp.today" = "Hoy";
+"exp.noPressure" = "Un no también es un dato útil.";
+"exp.result" = "Resultado";
+"exp.before" = "2 semanas antes";
+"exp.during" = "Días del experimento";
+"exp.days" = "%ld días";
+"exp.earlier" = "Experimentos anteriores";
+"exp.caveat" = "Otras cosas también cambiaron, así que tómalo como una pista, no como una prueba.";
+"exp.verdict.insufficient" = "Aún no hay datos suficientes para comparar. Cada lado necesita al menos %ld días con datos.";
+"exp.verdict.unclear" = "Aún no hay diferencia suficiente para saberlo.";
+"exp.verdict.higher" = "En los días del experimento, tu %1$@ subió %2$@ respecto a las dos semanas anteriores.";
+"exp.verdict.lower" = "En los días del experimento, tu %1$@ bajó %2$@ respecto a las dos semanas anteriores.";
+
+"exp.caffeine_cutoff_2pm.title" = "Sin cafeína después de las 14:00";
+"exp.caffeine_cutoff_2pm.detail" = "Ni café, ni té negro, ni bebidas energéticas a partir de las 14:00. Se compara con tu sueño.";
+"exp.caffeine_cutoff_2pm.question" = "¿Hoy sin cafeína después de las 14:00?";
+"exp.no_alcohol_weeknights.title" = "Sin alcohol entre semana";
+"exp.no_alcohol_weeknights.detail" = "De domingo a jueves por la noche, sin alcohol. Se compara con tu VFC nocturna.";
+"exp.no_alcohol_weeknights.question" = "¿Hoy ha ido según lo previsto? Viernes y sábado cuentan como sí.";
+"exp.wind_down_30.title" = "30 minutos para desconectar";
+"exp.wind_down_30.detail" = "Pantallas fuera y luz baja 30 minutos antes de dormir. Se compara con tu sueño.";
+"exp.wind_down_30.question" = "¿Esta noche desconectas 30 minutos antes de dormir?";
+"exp.morning_walk_10.title" = "Paseo de 10 minutos por la mañana";
+"exp.morning_walk_10.detail" = "Diez minutos al aire libre antes de las 10:00. Se compara con tu energía por la tarde.";
+"exp.morning_walk_10.question" = "¿Has caminado 10 minutos esta mañana?";
+"exp.meeting_free_block.title" = "Un bloque protegido";
+"exp.meeting_free_block.detail" = "Los días con 4 o más eventos, reserva una hora sin reuniones. Se compara con tu energía por la tarde.";
+"exp.meeting_free_block.question" = "¿Hoy has guardado una hora libre? Un día tranquilo cuenta como sí.";
+
+/* Energy check-in */
+"energy.low" = "Baja";
+"energy.okay" = "Normal";
+"energy.good" = "Buena";
+
+/* Notifications */
+"notif.weekly.title" = "Tu semana";
+"notif.weekly.body" = "Una lectura nueva y la semana que viene.";
+"notif.energy.title" = "Energía de hoy";
+"notif.energy.body" = "Mantén pulsado para responder: baja, normal o buena.";
+"notif.headsup.title" = "Mañana";
+"notif.headsup.body" = "Mañana parece intenso: %@. ¿Y si dejas la tarde libre?";
+
+/* Onboarding */
+"onb.intro.label" = "Una prueba de 3 semanas";
+"onb.intro.title" = "Entiende tus días.";
+"onb.intro.line1" = "Lee tu sueño, tu corazón, tu ciclo y tu calendario en segundo plano.";
+"onb.intro.line2" = "Una vez por semana, una lectura sobre lo que influye en tu energía.";
+"onb.intro.line3" = "Pequeños experimentos opcionales. Sin registros diarios.";
+"onb.intro.demo" = "Probar el modo demo con datos de ejemplo";
+"onb.questionOf" = "%ld de %ld";
+
+"onb.consent.label" = "Antes de empezar";
+"onb.consent.title" = "Qué pasa con tus datos";
+"onb.consent.reads.title" = "Qué lee la app";
+"onb.consent.reads.body" = "De Salud de Apple: sueño, variabilidad de la frecuencia cardiaca, pulso en reposo, pasos, energía activa, entrenamientos, temperatura de la muñeca y datos de la regla. De tus calendarios: títulos de los eventos, horas y si duran todo el día. No se escribe nada.";
+"onb.consent.stays.title" = "Dónde se quedan";
+"onb.consent.stays.body" = "En este iPhone. Una vez por semana se envía un resumen (cifras diarias, fechas y títulos de eventos, que pueden incluir nombres que hayas escrito) a Claude, un modelo de IA de Anthropic, para escribir tu lectura. El resumen no se guarda en nuestro servidor.";
+"onb.consent.stored.title" = "Qué guardamos";
+"onb.consent.stored.body" = "Un código de participante seudónimo, cómo usas la app, tus respuestas a las encuestas y el texto de las lecturas. Ni nombre, ni correo, ni datos de salud en bruto.";
+"onb.consent.test.title" = "Esto es una prueba";
+"onb.consent.test.body" = "Una prueba de 3 semanas de un producto en fase temprana. No es un producto sanitario y no da consejo médico.";
+"onb.consent.control.title" = "Tú decides";
+"onb.consent.control.body" = "Puedes exportar o borrar todos tus datos cuando quieras en Ajustes. Al borrarlos también se eliminan tus filas de nuestro servidor.";
+"onb.consent.agree" = "Acepto";
+
+"onb.invite.label" = "Invitación";
+"onb.invite.title" = "Introduce tu código";
+"onb.invite.body" = "Está en el mensaje que recibiste con el enlace de TestFlight.";
+"onb.invite.placeholder" = "ABCD-1234";
+"onb.invite.invalid" = "No reconocemos ese código. Revísalo y vuelve a intentarlo.";
+"onb.invite.failed" = "No se ha podido conectar. Revisa tu conexión y vuelve a intentarlo.";
+
+"onb.perm.label" = "Acceso";
+"onb.perm.title" = "Salud y Calendario";
+"onb.perm.health" = "Salud de Apple solo se lee. Permite las categorías que prefieras; la app funciona con lo que reciba.";
+"onb.perm.calendar" = "El acceso al calendario incluye todos los calendarios del teléfono, también cuentas de Google u Outlook añadidas en Ajustes.";
+"onb.perm.note" = "La lectura empieza por los últimos 90 días, así tu primera lectura puede aparecer hoy.";
+"onb.perm.allow" = "Permitir acceso";
+
+"intake.age.q" = "Tu rango de edad";
+"intake.cycle.q" = "Tu ciclo ahora mismo";
+"intake.cycle.natural" = "Ciclo natural";
+"intake.cycle.hormonal" = "Anticonceptivo hormonal";
+"intake.cycle.no_period" = "Sin regla";
+"intake.plans.q" = "En los últimos 12 meses, ¿has cambiado algún plan por tu ciclo?";
+"intake.plans.never" = "Nunca";
+"intake.plans.1_2" = "Una o dos veces";
+"intake.plans.several" = "Varias veces";
+"intake.plans.often" = "A menudo";
+"intake.tried.q" = "¿Alguna vez has cambiado algo para ver si te sentías mejor?";
+"intake.tried.noticed" = "Sí, y noté la diferencia";
+"intake.tried.couldnt_tell" = "Sí, pero no supe decir";
+"intake.tried.no" = "No";
+
+"onb.period.title" = "Tu última regla";
+"onb.period.body" = "Salud de Apple no tiene datos de la regla, así que basta con una fecha aproximada. La próxima vez puedes pulsar \"Me ha bajado la regla\" en Hoy.";
+"onb.period.date" = "Primer día";
+"onb.period.length" = "Ciclo habitual";
+"onb.period.days" = "%ld días";
+"onb.period.unsure" = "No estoy segura";
+
+"onb.focus.q" = "¿Qué es lo que más quieres entender?";
+
+"onb.notif.label" = "Notificaciones";
+"onb.notif.title" = "Como mucho 4 a la semana.";
+"onb.notif.body" = "La lectura del lunes, una pregunta opcional sobre tu energía por la tarde, un aviso antes de un día intenso y el seguimiento de los experimentos. Sin rachas ni recordatorios de días perdidos.";
+"onb.notif.allow" = "Permitir notificaciones";
+"onb.notif.later" = "Ahora no";
+
+"onb.reading.label" = "Leyendo";
+"onb.reading.title" = "Leyendo los últimos 90 días.";
+
+/* Settings */
+"settings.label" = "App";
+"settings.title" = "Ajustes";
+"settings.notifications" = "Notificaciones";
+"settings.notifications.all" = "Notificaciones";
+"settings.notifications.note" = "Como mucho 4 a la semana.";
+"settings.energy" = "Energía por la tarde";
+"settings.energy.note" = "Una notificación con tres botones algunas tardes.";
+"settings.display" = "Pantalla";
+"settings.dark" = "Oscuro";
+"settings.light" = "Claro";
+"settings.demo" = "Demo";
+"settings.demo.toggle" = "Modo demo";
+"settings.demo.note" = "Datos de ejemplo, separados de los tuyos. No se envía nada.";
+"settings.demo.preview21" = "Ver las pantallas del día 21";
+"settings.data" = "Tus datos";
+"settings.export" = "Exportar mis datos (JSON)";
+"settings.delete" = "Borrar todos mis datos";
+"settings.delete.confirm" = "¿Borrar todos tus datos?";
+"settings.delete.message" = "Se borra todo lo que hay en este teléfono y tus filas en nuestro servidor. No se puede deshacer.";
+"settings.delete.action" = "Borrarlo todo";
+"settings.delete.failed" = "No se ha podido conectar con el servidor";
+"settings.delete.failed.message" = "Tus datos del servidor no se han borrado. Vuelve a intentarlo con conexión, o borra solo los datos de este teléfono.";
+"settings.delete.localOnly" = "Borrar solo en este teléfono";
+"settings.privacy" = "Política de privacidad";
+"settings.participant" = "Participante %@";
+"settings.trialDay" = "Día %ld de %ld";
+"settings.version" = "Versión %@";
+
+/* Day 21 */
+"trial.label" = "Día 21";
+"trial.q1" = "¿Qué lectura te resultó más útil?";
+"trial.q1.none" = "Ninguna";
+"trial.q2" = "¿Cómo te sentirías si ya no pudieras usar esta app?";
+"trial.q2.very" = "Muy decepcionada";
+"trial.q2.somewhat" = "Algo decepcionada";
+"trial.q2.not" = "Nada decepcionada";
+"trial.q3" = "¿Qué haría que valiera la pena pagar por ella?";
+"trial.q3.placeholder" = "Lo que quieras";
+
+"paywall.title" = "Sigue adelante";
+"paywall.price" = "8 € / mes";
+"paywall.line1" = "Una lectura nueva cada semana.";
+"paywall.line2" = "Avisos antes de los días intensos.";
+"paywall.line3" = "Experimentos basados en tus propios datos.";
+"paywall.subscribe" = "Suscribirme";
+"paywall.notNow" = "Ahora no";
+"paywall.thanks.title" = "Gracias.";
+"paywall.thanks.body" = "El cobro aún no está activo y no se te cobrará nada. Te avisaremos cuando lo esté.";
+
+/* Demo insights */
+"demo.sleep.title" = "Los días con poca energía siguieron a noches cortas";
+"demo.sleep.body" = "De tus %1$ld días con menos energía, %2$ld vinieron después de una noche de menos de 6,5 h y %3$ld cayeron en la segunda mitad del ciclo. ¿Probamos a desconectar 30 minutos antes esta semana?";
+"demo.sleep.exp" = "La mayoría de tus días bajos llegaron tras noches cortas.";
+"demo.phase.title" = "La VFC baja antes de la regla";
+"demo.phase.body" = "Tu VFC fue de %1$ld ms de media en la fase folicular y de %2$ld ms en la fase lútea tardía. Los días más pesados en ese tramo pueden deberse en parte a tu cuerpo, no solo a tus planes.";
+"demo.phase.exp" = "La cafeína por la tarde puede pesar en el sueño cuando la VFC ya está más baja.";
+"demo.load.title" = "Los días llenos suelen costar más";
+"demo.load.body" = "Los días con 4 o más eventos tu energía por la tarde fue de %1$.1f sobre 3 de media (%2$ld días), frente a %3$.1f en días más tranquilos (%4$ld días).";
+"demo.load.exp" = "Tus tardes más bajas llegaron tras los calendarios más llenos.";
+"demo.ev.lowDays" = "Tardes con poca energía";
+"demo.ev.afterShort" = "Tras una noche de menos de 6,5 h";
+"demo.ev.shortNights" = "Noches de menos de 6,5 h";
+"demo.ev.of" = "%1$ld de %2$ld";
+"demo.ev.ofCheckins" = "%1$ld de %2$ld respuestas";
+"demo.ev.follicularHRV" = "VFC, folicular";
+"demo.ev.lateLutealHRV" = "VFC, lútea tardía";
+"demo.ev.days" = "Días comparados";
+"demo.ev.busyEnergy" = "Energía, 4+ eventos";
+"demo.ev.lightEnergy" = "Energía, días tranquilos";
