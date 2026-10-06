@@ -1,0 +1,16 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.ipa
+*.dSYM.zip
+*.dSYM
+# macOS
+.DS_Store
+# Supabase CLI
+supabase/.branches
+supabase/.temp
+# Trial exports (contain participant data)
+results/
